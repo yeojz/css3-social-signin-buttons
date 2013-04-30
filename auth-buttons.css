@@ -374,3 +374,48 @@
 .btn-yahoo.large:before {
     background-position: -216px -22px;
 }
+
+
+/* Bit.ly
+   ========================================================================== */
+
+.btn-bitly{
+    border-color: #8dc2e4;
+    color: #042D46;
+    background: #cadde9;
+    /* css3 */
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#B5DFFC), to(rgba(156,210,248,0)));
+    background-image: -webkit-linear-gradient(#B5DFFC, rgba(156,210,248,0));
+    background-image: -moz-linear-gradient(#B5DFFC, rgba(156,210,248,0));
+    background-image: -ms-linear-gradient(#B5DFFC, rgba(156,210,248,0));
+    background-image: -o-linear-gradient(#B5DFFC, rgba(156,210,248,0));
+    background-image: linear-gradient(#B5DFFC, rgba(156,210,248,0));
+    -webkit-box-shadow: inset 0 1px 0 #B5DFFC;
+    box-shadow: inset 0 1px 0 #B5DFFC;
+}
+
+.btn-bitly:hover,
+.btn-bitly:focus,
+.btn-bitly:active {
+    color: #327695;
+    background: #cadde9;
+}
+
+.btn-bitly:active {
+    background: #cadde9;
+    -webkit-box-shadow: inset 0 1px 0 #bbd6e7;
+    box-shadow: inset 0 1px 0 #bbd6e7;
+}
+
+/*
+ * Icon
+ */
+
+.btn-bitly:before {
+    margin: 0 0.6em 0 -0.6em;
+    background-position: -176px 0;
+}
+
+.btn-bitly.large:before {
+    background-position: -288px -22px;
+}
